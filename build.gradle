@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.arinonia'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+    compile 'club.minnced:java-discord-rpc:2.0.1'
+}
+
